@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pina Colada Blues | Indie Music Artist</title>
+
+
+    <link rel="icon" href="assets/pcb2.png" sizes="16x16">
+
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="contact/style.css">
+    <link rel="stylesheet" href="music/style.css">
+    <link rel="stylesheet" href="videos/style.css">
+    <link rel="stylesheet" href="merch/style.css">
+    <link rel="icon" href="assetsck/imagens/favicon.png" type="image/x-icon" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mine/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="slider/style.css">
+    <link rel="stylesheet" href="css/mine/mystyle.css">
+    <style>
+        .topright {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            text-align: right;
+        }
+
+        .bottomright {
+            position: absolute;
+            bottom: 25px;
+            right: 25px;
+            text-align: right;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            text-align: left;
+        }
+
+        .bottomleft {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            text-align: left;
+        }
+
+        .center {
+            padding-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+        }
+
+
+
+        .open-popup {
+            position: absolute;
+            bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .videoWrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 ratio */
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .center1 {
+            /* padding-top: 300px;
+            text-align: center;
+             */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            right: 50%;
+            width: 30em;
+            height: 18em;
+            margin-top: -9em;
+            text-align: center;
+            /*set to a negative number 1/2 of your height*/
+            margin-left: -15em;
+            /*set to a negative number 1/2 of your width*/
+            /* border: 1px solid #ccc; */
+            background-color: #ADD8E6;
+
+        }
+
+        .border {
+            border-style: solid;
+        }
+
+        .btn {
+            background-color: #000000;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 16px;
+            font-family: Nunito;
+        }
+
+        #index {
+            background-color: #ffffff;
+        }
+
+
+
+        p.copyright {
+            position: absolute;
+            width: 100%;
+            color: rgb(47, 71, 78);
+            line-height: 40px;
+            font-size: 15px;
+            text-align: center;
+            bottom: 0px;
+        }
+
+        .mytxt {
+            color: black;
+            font-size: 2vh;
+            text-align: center;
+            text-transform: uppercase;
+            margin-right: 60px;
+            margin-left: 60px;
+            font-weight: bold;
+        }
+
+        .mybtn {
+            margin-bottom: 25px;
+            width: 75%;
+            border: 2px solid black;
+            background-color: rgb(104, 199, 207);
+            color: black;
+            padding: 19px 28px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .mybtn2 {
+            margin-bottom: 25px;
+            width: 75vh;
+            border: 2px solid black;
+            background-color: rgb(135, 209, 216);
+            color: black;
+            padding: 19px 28px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        hr {
+            border-top: 3px solid black;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(135, 209, 216); overflow-x: hidden;" id="index">
+
+    <header>
+        <nav style="font-size: 20px; background-color: rgb(135, 209, 216);"
+            class="navbar navbar-expand-lg navbar-light justify-content-end">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img height="100px" width="200px" style="margin-top: 20px;" src="assets/pcb logo blac.png" alt=""
+                        class="d-inline-block align-text-top myfont"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul style="font-size: 15px; color: white;" class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#music">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#merch">Merch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#press">Press</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="white_bg container-fluid homepage-hero-module">
+        <div class="video-container">
+            <div class="title-container">
+                <div class="headline">
+                </div>
+            </div>
+            <div class="filter"></div>
+            <video autoplay muted loop class="fillWidth">
+                <source src="./videos/desktop.webm" type="video/webm" />Your browser does not support the video tag.
+                I suggest
+                you upgrade your browser.
+            </video>
+            <!-- Image fallback if video is not supported by browser -->
+            <!-- <div class="poster hidden" style="display: none">
+                <img src="PATH_TO_JPEG" alt="">
+            </div> -->
+        </div>
+    </div>
+
+
+    <div style="text-align: center;" class="homepage-hero-module">
+        <p class="mytxt">
+            Running Wild, january 7
+        </p>
+        </br>
+        <a href="https://youtu.be/sFHG65uO2yA" target="_blank" class="mybtn">Turn On Reminder</a>
+        </br>
+        <hr>
+
+        <div id="hide_tracks">
+            <h1 style="color: #000000; font-size: 25px; margin-top: 50px;">Tracks</h1>
+            <div class="whole">
+                <div class="frame1"><a href="https://smi.lnk.to/Kyun" target="_blank"><img src="./assets/kyun.png"
+                            alt=""></a></div>
+                <div class="frame2"><a href="https://linktr.ee/ouabm" target="_blank"><img
+                            src="./assets/Once Upon A Blue Moon VII.png" alt=""></a></div>
+                <div class="frame3"><a href="https://songwhip.com/pinacoladablues/iravukalnights" target="_blank"><img
+                            src="./assets/iravukal.jpg" alt=""></a></div>
+                <div class="frame4"><a href="https://songwhip.com/pinacoladablues/vibin" target="_blank"><img
+                            src="./assets/vibin.jpg" alt=""></a></div>
+            </div>
+        </div>
+
+
+        <div id="hide_abt" >
+            <h1 style="color: #000000; font-size: 25px; margin-top: 50px; text-align: center; margin-left: 120px;" class="abtHead">About</h1>
+            <div class="txtframe"><img style="border-radius: 50px;" src="./assets/pcb.jpeg" alt=""></div>
+            <div class="txtText">
+                <div>
+                    <p style="text-align: left; color: black; font-weight: bold; font-size: 20px; width: 100vh;"
+                        class="mb-7 leading-relaxed">Pina
+                        Colada Blues is an upcoming Electronic/pop Music Composer-Produce from Kerala.
+                        Also known as Pina C or PCB, Kevin Shaji is Pina Colada Blues. The name Pina Colada Blues is a
+                        representation of the cocktail like genres used in his music.<br> The music mainly consists of
+                        Indian
+                        instruments, dream/electro - pop/ trap/hybrid trap/hip-hop/rnb/carnatic and eastern infused
+                        western
+                        styles. Thenale is the debut single of Pina Colada Blues released in 2020.
+
+                        Pina Colada Blues has been featured on Rolling Stones India, BBC Asia Network, VH1, The New
+                        Indian
+                        Express, High on Score and other magazines, blogs, Radio networks and TV channels.</p>
+                </div>
+            </div>
+        </div>
+        <div id="hd">
+            <p style="margin-top: 20px; text-align: center;" class="mytxt">
+                Tracks
+            </p>
+
+
+
+
+            <div style="margin-top: 50px; width: 70vh; height: 380px;" class="horizontal-slider-container">
+
+                <ul class="horizonal-slider">
+                    <li class="item"><a href="https://smi.lnk.to/Kyun" target="_blank"><img src="assets/kyun.png"
+                                alt="dreamer"></a></li>
+                    <li class="item"><a href="https://linktr.ee/ouabm" target="_blank">
+                            <img src="assets/Once Upon A Blue Moon VII.png" alt="Once Upon A Blue Moon"></a></li>
+                    <li class="item"><a href="https://songwhip.com/pinacoladablues/iravukalnights" target="_blank"><img
+                                src="assets/iravukal.jpg" alt="iravukal"></a></li>
+                    <li class="item"><a href="https://songwhip.com/pinacoladablues/vibin" target="_blank"><img
+                                src="assets/vibin.jpg" alt="vibin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="abt" class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 style="color: black; overflow-x: hidden" class="title-font sm:text-4xl text-3xl mb-4 font-medium">About
+                </h1>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img style="border-radius: 50px;" class="object-cover object-center rounded" alt="hero" src="assets/pcb.jpeg">
+                </div>
+                <p style="text-align: justify; color: black; font-weight: bold;" class="mb-8 leading-relaxed">Pina
+                    Colada Blues is an upcoming Electronic/pop Music Composer-Produce from Kerala.
+                    Also known as Pina C or PCB, Kevin Shaji is Pina Colada Blues. The name Pina Colada Blues is a
+                    representation of the cocktail like genres used in his music. The music mainly consists of Indian
+                    instruments, dream/electro - pop/ trap/hybrid trap/hip-hop/rnb/carnatic and eastern infused western
+                    styles. Thenale is the debut single of Pina Colada Blues released in 2020.
+
+                    Pina Colada Blues has been featured on Rolling Stones India, BBC Asia Network, VH1, The New Indian
+                    Express, High on Score and other magazines, blogs, Radio networks and TV channels.</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align: right;" class="end">
+        <a style="color: black;" href="https://mobile.twitter.com/pinacoladablues" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-twitter"></i>
+        </a>
+        <a style="color: black;" href="https://www.facebook.com/pinacoladablues/" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-facebook"></i>
+        </a>
+        <a style="color: black;" href="https://www.instagram.com/pinacoladablues/" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-instagram"></i>
+        </a>
+        <a style="color: black;" href="https://youtube.com/c/PinaColadaBlues" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-youtube"></i>
+        </a>
+    </div>
+
+    <div style="text-align: center;" class="sm">
+        <a style="color: black;" href="https://mobile.twitter.com/pinacoladablues" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-twitter"></i>
+        </a>
+        <a style="color: black;" href="https://www.facebook.com/pinacoladablues/" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-facebook"></i>
+        </a>
+        <a style="color: black;" href="https://www.instagram.com/pinacoladablues/" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-instagram"></i>
+        </a>
+        <a style="color: black;" href="https://youtube.com/c/PinaColadaBlues" target="_blank">
+            <i style="font-size: 20px; padding-right: 30px;" class="fa fa-youtube"></i>
+        </a>
+    </div>
+
+
+    <div id="contact" class="popup">
+        <div class="popup__container">
+            <a href="#" class="popup__close">
+            </a>
+
+
+            <div class="card" style="background-color: #ADD8E6;">
+                <div class="photo"></div>
+                <div class="banner"></div>
+                <ul>
+                    <a href="https://forms.gle/6j1uPjrJArNSvjiD6" target="_blank"><button class="btn">Join mailing
+                            list</button></a>
+                </ul>
+
+
+                <div class="social-media-banner">
+                    <a href="https://mobile.twitter.com/pinacoladablues" target="_blank"><i class="fa fa-twitter"
+                            style="color: rgb(71, 71, 69);"></i></a>
+                    <a href="https://www.facebook.com/pinacoladablues/" target="_blank"><i class="fa fa-facebook"
+                            style="color: rgb(71, 71, 69);"></i></a>
+                    <a href="https://www.instagram.com/pinacoladablues/" target="_blank"><i class="fa fa-instagram"
+                            style="color: rgb(71, 71, 69);"></i></a>
+                    <a href="https://youtube.com/c/PinaColadaBlues" target="_blank"><i class="fa fa-youtube"
+                            style="color: rgb(71, 71, 69);"></i></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- music popup -->
+    <div id="music" class="popup">
+        <div class="popup__container">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__content">
+                <div class="container">
+
+                    <div class="gallery">
+
+
+                        <div class="gallery-item">
+                            <a href="https://smi.lnk.to/Kyun" target="_blank">
+                                <img class="gallery-image" src="assets/kyun.png" alt="Kyun"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://songwhip.com/pinacoladablues/just-friends" target="_blank">
+                                <img class="gallery-image" src="assets/just friends5.png" alt="Just Freinds"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://linktr.ee/ouabm" target="_blank">
+                                <img class="gallery-image" src="assets/Once Upon A Blue Moon VII.png"
+                                    alt="Once Upon A Blue Moon"></a>
+                        </div>
+
+
+
+                        <div class="gallery-item">
+                            <a href="https://songwhip.com/pinacoladablues/iravukalnights" target="_blank"><img
+                                    class="gallery-image" src="assets/iravukal.jpg" alt="iravukal"></a>
+                        </div>
+
+
+                        <div class="gallery-item">
+                            <a href="https://songwhip.com/pinacoladablues/vibin" target="_blank"><img
+                                    class="gallery-image" src="assets/vibin.jpg" alt="vibin"></a>
+                        </div>
+
+
+                        <div class="gallery-item">
+                            <a href="https://songwhip.com/pinacoladablues/dreamer" target="_blank"><img
+                                    class="gallery-image" src="assets/dreamer.jpg" alt="dreamer"></a>
+                        </div>
+
+
+                        <div class="gallery-item">
+                            <a href="https://songwhip.com/pinacoladablues/omana-thinkal-kidavo" target="_blank"><img
+                                    class="gallery-image" src="assets/otk.jpg" alt="otk"></a>
+                        </div>
+
+                    </div>
+
+                    <!-- partial -->
+                    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+                    <script src="./script.js"></script> -->
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- video_popup -->
+    <div id="video" class="popup">
+        <div class="popup__container">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__content">
+
+                <section>
+                    <div id="videoembed1" class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/e4VTNtpqsmo?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="videoembed1" class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xp0Tutjr5t4?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="videoembed1" class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FpZ4jylZB54?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="videoembed1" class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ae_3nTEPkEs?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="videoembed1" class="embed-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pMX2SeclSwY?controls=0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="videoembed1" class="embed-container">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLbVRS9n7OicVvJopiNAA-j-g0sB01chE-"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- press popup -->
+
+    <div id="press" class="popup">
+        <div class="popup__container">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__content">
+                <div class="container">
+
+
+                    <div class="gallery">
+
+                        <div class="gallery-item">
+                            <a href="https://www.newindianexpress.com/cities/kochi/2021/sep/11/chasing-the-retro-spirit-2357083.html"
+                                target="_blank"><img class="gallery-image" src="assets/tnie logo.png"
+                                    alt="The New Indian Express Logo"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://theindianmusicdiaries.com/kerala-based-producer-pina-colada-blues-releases-refreshing-and-dreamy-electronic-pop-debut-ep-once-upon-a-blue-moon/"
+                                target="_blank"><img class="gallery-image" src="assets/im.jpeg"
+                                    alt="IndianMusucDiaries"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://rollingstoneindia.com/hear-kerala-producer-pina-colada-blues-moody-debut-album-once-upon-a-blue-moon/"
+                                target="_blank"><img class="gallery-image" src="assets/RS Logo.png"
+                                    alt="Rolling Stone Logo"></a>
+                        </div>
+
+
+
+                        <div class="gallery-item">
+                            <a href="https://highonscore.com/pina-colada-blues-once-upon-a-blue-moon-score-indie-reviews/"
+                                target="_blank"><img class="gallery-image" src="assets/the score magazine logo.png"
+                                    alt="The Score Magazine Logo"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://ahummingheart.com/reviews/pina-colada-blues-sets-the-tone-with-once-upon-a-blue-moon/"
+                                target="_blank"><img class="gallery-image" src="assets/AHH Logo.jpg"
+                                    alt="Humming Heart Logo"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://www.newindianexpress.com/cities/kochi/2020/apr/14/in-so-many-chords-2129642.html"
+                                target="_blank"><img class="gallery-image" src="assets/tnie logo.png"
+                                    alt="The New Indian Express Logo"></a>
+                        </div>
+
+
+
+                        <div class="gallery-item">
+                            <a href="https://highonscore.com/iravukal-nights-pina-colada-blues-score-indie-reviews/"
+                                target="_blank"><img class="gallery-image" src="assets/the score magazine logo.png"
+                                    alt="The Score Magazine Logo"></a>
+                        </div>
+
+                        <div class="gallery-item">
+                            <a href="https://rollingstoneindia.com/exclusive-stream-kerala-producer-pina-colada-blues-brings-the-big-band-sound-on-akalukayo/"
+                                target="_blank"><img class="gallery-image" src="assets/RS Logo.png"
+                                    alt="The New Indian Express Logo"></a>
+                        </div>
+
+                    </div>
+
+                </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- merch popup -->
+
+
+    <!-- 
+                    <p
+                        style="padding-top: 200px; color: white; font-family: Nunito; font-size: medium; text-transform: uppercase; top: 50px;">
+                        Coming Soon!!</p> -->
+
+    <div id="merch" class="popup">
+        <div class="popup__container">
+            <a href="#" class="popup__close"></a>
+            <div class="popup__content">
+                <div class="container">
+                    <main role="main">
+                        <div class="product">
+                            <figure>
+                                <a href="https://www.loomful.com/products/pina-colada-blues-official-hoodie"
+                                    target="_blank"><img src="assets/merch_01.jpeg" alt="Product Image"
+                                        class="product-image"></a>
+                            </figure>
+
+                            <div class="product-description">
+
+                                <div class="info">
+                                    <h1>HOODIES</h1>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </main>
+
+
+                    <main role="main">
+                        <div class="product">
+                            <figure>
+                                <a href="https://www.loomful.com/products/pina-colada-blues-t-shirt"
+                                    target="_blank"><img src="assets/merch_02.jpeg" alt="Product Image"
+                                        class="product-image"></a>
+                            </figure>
+
+                            <div class="product-description">
+
+                                <div class="info">
+                                    <h1>TEE SHIRT</h1>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </main>
+
+
+
+
+                    <main role="main">
+                        <div class="product">
+                            <figure>
+                                <a href="https://www.loomful.com/products/pina-colada-blues-crop-top-1"
+                                    target="_blank"><img src="assets/merch_03.jpeg" alt="Product Image"
+                                        class="product-image"></a>
+                            </figure>
+
+                            <div class="product-description">
+
+                                <div class="info">
+                                    <h1>CROP TOP</h1>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </main>
+
+
+
+                    <main role="main">
+                        <div class="product">
+                            <figure>
+                                <a href="https://www.loomful.com/products/pina-colada-blues-women-tee"
+                                    target="_blank"><img src="assets/merch_04.jpeg" alt="Product Image"
+                                        class="product-image"></a>
+                            </figure>
+
+                            <div class="product-description">
+
+                                <div class="info">
+                                    <h1>WOMEN'S TEE</h1>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </main>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </ul>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+</body>
+<!-- partial -->
+
+
+
+</div>
+</div>
+
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script> -->
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script> -->
+<script src="assets/scriptbl.js"></script>
+<script src="assets/links.js"></script>
+<script src="assets/sm.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="doubleclicktogo.js"></script>
+<script type="text/javascript" src="assetsck/js/animations.js"></script>
+<script src="contact/script.js"></script>
+<script src="music/script.js"></script>
+<script src="videos/script.js"></script>
+<script src="merch/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="./js/jquery-3.0.0.min.js"></script>
+<script src="./js/mine/script.js"></script>
+</body>
+
+</html>
