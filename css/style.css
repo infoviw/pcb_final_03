@@ -1048,4 +1048,7 @@ ul.img_icon li {
   #hide_abt{
     display: none;
   }
+  #hide_sm{
+    display: none;
+  }
 }
